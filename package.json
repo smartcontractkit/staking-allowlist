@@ -1,0 +1,23 @@
+{
+  "name": "staking-allowlist",
+  "version": "1.0.0",
+  "description": "Early access allowlist for Chainlink Staking",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/smartcontractkit/staking-allowlist.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartcontractkit/staking-allowlist/issues"
+  },
+  "homepage": "https://github.com/smartcontractkit/staking-allowlist#readme",
+  "dependencies": {
+    "ethers": "5.7.2",
+    "merkletreejs": "0.3.8"
+  }
+}
